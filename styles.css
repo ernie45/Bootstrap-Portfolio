@@ -1,5 +1,8 @@
 body{
-	background: url("../images/vintage-concrete.png");
+	background: url("images/vintage-concrete.png");
+}
+.white{
+	background: white;
 }
 .sameColor{
 	color: #cccccc;
