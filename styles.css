@@ -54,10 +54,15 @@ p{
 	float: left;
 }
 .same{
-	height: 120px;
-	width: 140px;
+	padding: 0px;
+	height: 175px;
+	width: 214px;
+	z-index: -1;
 }
-#firstFloat, #secondFloat, #thirdFloat{
-	clear: both;
-	overflow: auto;
+.banner{
+	position: absolute;
+	z-index: 1;
+	background: #4aaaa5;
+	color: white;
+	bottom: 40px;
 }
